@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — LocalAI-Realistic</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fff;
+      --border: #e5e5e5;
+      --link: #0a58ca;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f0f0f0;
+        --muted: #b0b0b0;
+        --bg: #111;
+        --border: #333;
+        --link: #6eb6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      line-height: 1.25;
+      margin: 0 0 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    h2:first-of-type { border-top: none; padding-top: 0; }
+    h3 {
+      font-size: 1.05rem;
+      margin: 1.25rem 0 0.5rem;
+    }
+    p { margin: 0.75rem 0; }
+    ul { margin: 0.5rem 0 0.75rem; padding-left: 1.35rem; }
+    li { margin: 0.35rem 0; }
+    a { color: var(--link); }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.25rem;
+    }
+    .meta p { margin: 0.25rem 0; }
+    strong { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy — LocalAI-Realistic</h1>
+
+    <div class="meta">
+      <p><strong>Effective date:</strong> 2026-06-03</p>
+      <p><strong>Last updated:</strong> 2026-06-03</p>
+      <p><strong>Controller / publisher:</strong> Yingerile BAI</p>
+      <p><strong>Contact:</strong> <a href="mailto:baiyin0203@126.com">baiyin0203@126.com</a></p>
+      <p><strong>App:</strong> LocalAI-Realistic (the “App”), distributed on the Apple App Store for iPhone and iPad.</p>
+    </div>
+
+    <p>This Privacy Policy describes how we handle information when you use the App. By using the App, you agree to this policy. If you do not agree, please do not use the App.</p>
+
+    <h2>1. Summary</h2>
+    <ul>
+      <li><strong>Fully on-device generation (iOS).</strong> Text prompts and images are processed locally with Core ML. We do <strong>not</strong> send your prompts or generated images to our servers because we do <strong>not</strong> operate backend servers for this App.</li>
+      <li><strong>No account required.</strong> The App does not ask for your name, email, or phone number to use core features.</li>
+      <li><strong>No advertising.</strong> The App does not show ads and does not integrate advertising or analytics SDKs.</li>
+      <li><strong>No tracking.</strong> The App does not use App Tracking Transparency (ATT), does not track you across other companies’ apps or websites, and does not use your data for cross-app advertising.</li>
+      <li><strong>No routine network use (iOS).</strong> The iOS App does not download models from the internet. The AI model is <strong>bundled inside the App</strong> and unpacked to private on-device storage on first use. The App is designed to work <strong>offline</strong> after installation.</li>
+      <li><strong>We do not collect personal data</strong> for our own purposes. App Store Connect and Apple may process limited purchase and device data under Apple’s policies when you obtain or update the App.</li>
+    </ul>
+
+    <h2>2. Information processed on your device</h2>
+
+    <h3>2.1 Prompts and generated images</h3>
+    <ul>
+      <li>Text you enter (prompts and negative prompts) and images produced by the model are used <strong>on your device</strong> to run generation and to show results in the App.</li>
+      <li>Generated images may be kept in an <strong>in-App gallery</strong> stored in the App’s private container (Application Support). This gallery is <strong>not</strong> exposed in the Files app under “On My iPhone” for this build.</li>
+      <li>If you use <strong>Share</strong>, the system share sheet lets you send an image to a destination <strong>you</strong> choose (for example Messages, Mail, or Save to Files). The App does not automatically upload content to us or to third parties.</li>
+    </ul>
+
+    <h3>2.2 Settings and preferences</h3>
+    <ul>
+      <li>The App stores preferences on your device (for example step count, seed, prompts, and similar options) using <strong>UserDefaults</strong> so your choices persist between launches.</li>
+    </ul>
+
+    <h3>2.3 Model files and storage</h3>
+    <ul>
+      <li>On first launch (or after you delete local model data), the App <strong>unzips a bundled Core ML model</strong> from the App package into private on-device storage. This happens locally; it is not a network download.</li>
+      <li>The App may check <strong>available storage</strong> on your device before loading the model or generating images, to reduce failures when space is low.</li>
+      <li>The App may read <strong>file timestamps</strong> for images in its private gallery (for example to sort by date). This applies only to files the App created in its own container.</li>
+    </ul>
+
+    <h3>2.4 Diagnostics</h3>
+    <ul>
+      <li>The App may print operational messages to the device console during development or troubleshooting. We do <strong>not</strong> ship a separate telemetry or crash-reporting service that sends this data to us in the current iOS build.</li>
+    </ul>
+
+    <h2>3. Third parties</h2>
+
+    <h3>3.1 Apple</h3>
+    <ul>
+      <li>Distribution, updates, and any in-app purchase or billing are handled by <strong>Apple</strong> under the <a href="https://www.apple.com/legal/internet-services/itunes/" rel="noopener noreferrer">Apple Media Services Terms</a> and related documents.</li>
+      <li>Apple’s systems may collect information about your device, account, and App Store activity as described in <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple’s Privacy Policy</a>.</li>
+    </ul>
+
+    <h3>3.2 No other third-party data recipients (iOS)</h3>
+    <ul>
+      <li>In the current iOS App, we do <strong>not</strong> share your prompts, images, or usage with advertisers, analytics providers, or model-hosting services.</li>
+      <li>If you use the <strong>Share</strong> sheet to send content elsewhere, that transfer is between you and the app or service you select, under their policies.</li>
+    </ul>
+
+    <h2>4. Data retention</h2>
+    <ul>
+      <li><strong>On-device data</strong> (settings, gallery, unpacked model files) remains until you delete the App or remove content using in-App actions where available.</li>
+      <li><strong>We do not retain</strong> your prompts or images on our servers, because we do not receive them.</li>
+    </ul>
+
+    <h2>5. Children</h2>
+    <p>The App is not directed to children under 13 (or the minimum age required in your jurisdiction). If you are a parent or guardian and have concerns, contact us at the address below.</p>
+
+    <h2>6. Your choices</h2>
+    <ul>
+      <li><strong>Delete the App</strong> to remove locally stored App data in the normal iOS manner (including unpacked models and gallery files in the App container).</li>
+      <li><strong>Share or not share</strong> generated images — entirely your choice via the system share sheet.</li>
+      <li><strong>Adjust generation settings</strong> (steps, seed, etc.) in the App at any time.</li>
+    </ul>
+
+    <h2>7. International users</h2>
+    <p>Processing occurs <strong>on your device</strong> in the country where you use the App. We do not transfer your prompts or generated images to our servers in the current iOS build.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. The <strong>“Last updated”</strong> date at the top will change when we do. Material changes should be reflected at the same URL you provide to Apple. Continued use after an update means you accept the revised policy.</p>
+
+    <h2>9. Contact</h2>
+    <p>Questions or requests regarding this policy:</p>
+    <p><strong>Email:</strong> <a href="mailto:baiyin0203@126.com">baiyin0203@126.com</a></p>
+  </main>
+</body>
+</html>
